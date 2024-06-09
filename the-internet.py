@@ -92,12 +92,12 @@ class TestSimpleLogin(BaseCase):
 #         self.set_value("//input[@type='number']","40")
 #         self.highlight("//input[@type='number']")
 
-#         self.open("https://the-internet.herokuapp.com/jqueryui/menu#")
-#         self.highlight("//a[normalize-space()='Enabled']")
-#         self.click("//a[normalize-space()='Enabled']")
-#         self.click("//a[normalize-space()='Downloads']")
-#         self.highlight("//a[normalize-space()='PDF']")
-#         time.sleep(3)
+         self.open("https://the-internet.herokuapp.com/jqueryui/menu#")
+         self.highlight("//a[normalize-space()='Enabled']")
+         self.click("//a[normalize-space()='Enabled']")
+         self.click("//a[normalize-space()='Downloads']")
+         self.highlight("//a[normalize-space()='PDF']")
+         time.sleep(3)
 
 
         os.popen("taskkill /f /im chrome.exe")
